@@ -1,0 +1,1792 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: 700;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+q {
+  quotes: \201C \201D \2018 \2019;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], input[disabled] {
+  cursor: default;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body, figure {
+  margin: 0;
+}
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 42px;
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.search p {
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 26px;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.tours-gallery {
+  padding: 20px 0;
+}
+
+.tours-gallery h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.tours-gallery h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.tour-deal {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.travel-countries h3 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: #222222;
+}
+
+.travel-countries h4 {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+h4 {
+  color: #ffffff;
+}
+
+.sea-tours {
+  text-align: center;
+}
+
+.vacation-packages {
+  color: #ffffff;
+}
+
+.vacation-packages h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.vacation-packages p {
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: thin;
+}
+
+nav a {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.footer-nav h4 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.footer-nav li {
+  font-family: "Lato", sans-serif;
+  color: grey;
+}
+
+.bottom-nav {
+  letter-spacing: 1px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.bottom-nav a {
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background: #4ae5d1;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 10px 10px 10px 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+}
+
+button p {
+  text-align: center;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.main-head button p {
+  padding: 3px 20px 3px 35px;
+  position: relative;
+}
+
+.main-head button p img {
+  position: absolute;
+  left: 2px;
+  top: -2px;
+  padding-left: 5px;
+}
+
+button.find {
+  position: relative;
+  top: 47px;
+}
+
+button.find p {
+  padding: 0 10px 0 20px;
+  position: relative;
+}
+
+button.find p img {
+  position: absolute;
+  left: 3px;
+}
+
+button.find p a {
+  border: none;
+}
+
+button.right {
+  width: 115px;
+  height: 50px;
+  position: relative;
+  right: -20px;
+  top: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+button.right img {
+  position: relative;
+  top: 3px;
+  left: 0;
+}
+
+.offers-gallery button {
+  width: 120px;
+  height: 40px;
+}
+
+.offers-gallery button p {
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.italy-button {
+  width: 185px;
+  height: 50px;
+  padding: 0 0 0 29px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  left: 20px;
+}
+
+.italy-button img {
+  position: absolute;
+  left: 9px;
+  top: 19px;
+}
+
+.italy-button p {
+  padding-left: 10px;
+}
+
+.france-button {
+  width: 185px;
+  height: 50px;
+  padding: 0 0 0 29px;
+  text-align: center;
+  letter-spacing: 1px;
+  position: relative;
+  left: 320px;
+}
+
+.france-button img {
+  position: absolute;
+  left: 20px;
+  top: 19px;
+}
+
+.france-button p {
+  padding-right: 27px;
+}
+
+.social-button {
+  width: 130px;
+  height: 31px;
+  border-radius: 5px 5px 5px 5px;
+  text-align: center;
+  position: relative;
+  padding-top: 8px;
+  color: #c2c2c2;
+  font-family: "Dosis", sans-serif;
+  letter-spacing: 1px;
+}
+
+.social-button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+  font-weight: thin;
+}
+
+.social-button i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.followers {
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  color: #222222;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 7px;
+  border-radius: 5px 5px 5px 5px;
+  font-family: "Lato", sans-serif;
+  color: #222222;
+  font-weight: 700;
+}
+
+.fb {
+  background: #3b5998;
+}
+
+.twitter {
+  background: #55acee;
+}
+
+.google {
+  background: #d34836;
+}
+
+.pinterest {
+  background: #c92228;
+  color: #ffffff;
+}
+
+input[type=email] {
+  background: #141414;
+  padding: 10px 35px 13px;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid grey;
+  text-align: left;
+}
+
+.email-submit {
+  position: relative;
+}
+
+.fa-envelope-o {
+  position: absolute;
+  right: 19px;
+  bottom: 15px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 10px;
+  font-size: 1rem;
+  padding-top: 3px;
+  text-align: left;
+}
+
+input[type=submit] {
+  background: #4ae5d1;
+  width: 242px;
+  padding: 10px 0 13px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-size: 1.4rem;
+  border: 1px solid grey;
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  color: #c2c2c2;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.tag {
+  padding: 20px 0;
+}
+
+.sea-tours li, .special-offers li, .travel-countries li {
+  border-radius: 5px 5px 5px 5px;
+}
+
+header {
+  background-image: url(assets/hero.jpg);
+  height: 150vh;
+  width: 100%;
+  color: #ffffff;
+}
+
+main, section, .main-footer {
+  margin-top: 100px;
+  padding-top: 5%;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.main-head {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 5% 0;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.top-nav a {
+  text-decoration: none;
+}
+
+.left-nav {
+  padding: 25px 0 0 25px;
+}
+
+.logo img {
+  position: relative;
+  top: 7px;
+}
+
+.right-nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+}
+
+.right-nav li a {
+  display: inline-block;
+  padding: 10px;
+  list-style: none;
+}
+
+.bottom-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 10%;
+}
+
+.bottom-nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.bottom-nav li:hover a {
+  background: rgba(64, 64, 64, 0.3);
+  border-bottom: none;
+}
+
+.search.hover {
+  background: rgba(64, 64, 64, 0.3);
+  opacity: 1;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  padding: 15px;
+  border-top: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.hotels {
+  border-left: 1px solid #c2c2c2;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.search {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  opacity: 0;
+}
+
+.search img {
+  position: relative;
+  left: -10px;
+  top: 2px;
+}
+
+.search div {
+  padding: 15px 52px 25px 0;
+}
+
+.search p {
+  padding: 10px 0;
+}
+
+.title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.bolivia {
+  background: url("assets/tour-1.jpg") no-repeat center;
+  background-position: 100%;
+  background-size: cover;
+}
+
+li.bolivia:hover {
+  background-color: rgba(64, 64, 64, 0.3);
+  background-image: url("assets/tour-1.jpg") no-repeat center;
+}
+
+.patagonia {
+  background: url("assets/tour-2.jpg") no-repeat center;
+}
+
+.torres {
+  background: url("assets/tour-3.jpg") no-repeat center;
+}
+
+.santorini {
+  background: url("assets/tour-4.jpg") no-repeat center;
+}
+
+.turkey {
+  background: url("assets/tour-5.jpg") no-repeat center;
+}
+
+.china {
+  background: url("assets/tour-6.jpg") no-repeat center;
+}
+
+main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+.tours-gallery ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.tours-gallery ul li {
+  width: 31%;
+  list-style: none;
+  padding: 35px 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tours-gallery li:hover button {
+  background: none;
+  border: 2px solid #4ae5d1;
+}
+
+.tours-gallery li:hover h3 {
+  color: #4ae5d1;
+}
+
+.tour-deal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+div.left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+div.left div {
+  position: relative;
+}
+
+div.left p {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.left div:first-child p {
+  position: relative;
+  left: -23px;
+}
+
+.left div:first-child img {
+  position: absolute;
+  left: -3px;
+}
+
+.left div:last-child img {
+  position: absolute;
+  left: -25px;
+}
+
+span.bold {
+  font-weight: bold;
+  padding: 2px;
+  color: #ffffff;
+}
+
+section.vacation-packages {
+  background: url("assets/banner.jpg") no-repeat;
+}
+
+.vacation-packages div {
+  padding-bottom: 115px;
+  text-align: center;
+}
+
+section.special-offers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.greece {
+  background: url("assets/greece.jpg") no-repeat;
+}
+
+.china2 {
+  background: url("assets/china.jpg") no-repeat;
+}
+
+.canada {
+  background: url("assets/canada.jpg") no-repeat;
+}
+
+.offers-gallery ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+.offers-gallery ul li {
+  width: 32%;
+  list-style: none;
+  padding: 36px 0 36px 26px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.offers-gallery ul h3 {
+  font-size: 20px;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.deal span {
+  font-size: 24px;
+  font-size: 2.4rem;
+  padding: 3px 10px 3px 3px;
+}
+
+.deal p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 20px;
+  padding-right: 49px;
+}
+
+.deal ul li {
+  padding-left: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.italy01 {
+  background: url("assets/italy-small.jpg") no-repeat;
+}
+
+.italy02 {
+  background: url("assets/italy-small2.jpg") no-repeat;
+}
+
+.italy03 {
+  background: url("assets/italy-small3.jpg") no-repeat;
+}
+
+.italy04 {
+  background: url("assets/italy-small4.jpg") no-repeat;
+}
+
+.france01 {
+  background: url("assets/francesmall1.jpg") no-repeat;
+}
+
+.france02 {
+  background: url("assets/francesmall2.jpg") no-repeat;
+}
+
+.france03 {
+  background: url("assets/francesmall3.jpg") no-repeat;
+}
+
+.france04 {
+  background: url("assets/francesmall4.jpg") no-repeat;
+}
+
+section.travel-countries {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.italy, .france {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 5%;
+}
+
+.travel-gallery, .travel-content {
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.italy .travel-content {
+  background-image: url(assets/italymap.png);
+  background-repeat: no-repeat;
+}
+
+.france .travel-content {
+  background-image: url(assets/francemap.jpg);
+  background-repeat: no-repeat;
+}
+
+.italy h3, .italy p, .italy h4 {
+  text-align: left;
+}
+
+.italy h4 {
+  padding-left: 20px;
+}
+
+.italy .travel-content {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.italy ul {
+  padding: 0px 82px 0px 35px;
+  color: #c2c2c2;
+}
+
+.italy .title {
+  padding-left: 20px;
+}
+
+.france {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.france h3, .france p, .france h4 {
+  text-align: right;
+}
+
+.france h4 {
+  padding-right: 20px;
+}
+
+.france .travel-content {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.france ul {
+  padding-left: 125px;
+}
+
+.france .title {
+  padding-right: 20px;
+}
+
+.travel-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.travel-content p {
+  line-height: 30px;
+}
+
+.travel-content .cities {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.travel-content li {
+  color: #c2c2c2;
+  padding: 2px;
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.travel-content h3 {
+  font-size: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.travel-content h4 {
+  color: #222222;
+  font-size: 16px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.travel-gallery {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.travel-gallery ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.travel-gallery li {
+  width: 48%;
+  padding: 36px 15px;
+}
+
+.travel-gallery h3, .travel-gallery h4 {
+  text-align: left;
+  position: relative;
+  bottom: -55px;
+  left: 2px;
+  color: white;
+  letter-spacing: 0;
+}
+
+.travel-gallery h3 {
+  margin-bottom: -10px;
+}
+
+.italy .travel-gallery h4 {
+  left: -17px;
+}
+
+.travel-gallery span {
+  color: #4ae5d1;
+}
+
+.main-footer {
+  background: #1b1b1b;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 50px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-info .logo {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  color: #c2c2c2;
+}
+
+.footer-nav ul {
+  list-style: none;
+  padding: 0 45px 0 0;
+}
+
+.footer-nav li {
+  padding: 5px;
+  font-size: 10px;
+  font-size: 1rem;
+}
+
+.footer-nav h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding-left: 6px;
+}
+
+li.social {
+  padding: 2px;
+}
+
+.pc {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+.pop-countries {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.last-nav {
+  background: #141414;
+  padding: 10px;
+}
+
+.bottom-foot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.bottom-foot ul {
+  padding: 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+.bottom-foot a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.bottom-foot p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #c2c2c2;
+}
+
+.bottom-foot li {
+  display: inline;
+}
+
+.copyright {
+  color: #c2c2c2;
+}
+
+@media (max-width: 940px) {
+  .mainNav {
+    display: none;
+    position: fixed;
+    width: 18%;
+    top: 15%;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo {
+    padding-left: 60px;
+  }
+  .mainNav li {
+    padding: 5px;
+    display: block;
+  }
+  .right-nav li a {
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+  }
+  .fa-bars {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .main-head {
+    margin: 0 auto;
+  }
+  .search div {
+    padding: 15px 25px 25px 0;
+  }
+  button.find {
+    top: 0;
+    left: 320px;
+  }
+  .tours-gallery ul li {
+    padding: 0 10px;
+  }
+  .tours-gallery .left {
+    display: none;
+  }
+  button.right {
+    width: 115px;
+    height: 45px;
+    position: relative;
+    right: 0;
+    top: -17px;
+  }
+  .offers-gallery ul li {
+    padding: 36px 0 36px 10px;
+  }
+  .offers-gallery ul h3 {
+    font-size: 20px;
+    font-size: 2rem;
+  }
+  .deal span {
+    font-size: 14px;
+    font-size: 1.4rem;
+    padding-right: 4px;
+  }
+  .deal p {
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  .deal ul li {
+    padding-left: 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .italy .cities ul {
+    padding: 0px 40px 0px 35px;
+  }
+  .france .cities ul {
+    padding-left: 70px;
+  }
+  .footer-nav li {
+    padding: 3px;
+    font-size: 8px;
+    font-size: 0.8rem;
+  }
+  .footer-nav h4 {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+  .footer-nav ul {
+    padding: 0px 36px 0 0;
+  }
+  input[type=submit] {
+    background: #4ae5d1;
+    width: 220px;
+  }
+  .france-button {
+    left: 180px;
+  }
+  .logo {
+    margin: auto;
+  }
+  .footer-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-info .logo {
+    padding: 0;
+  }
+  input[type=submit] {
+    width: 240px;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .mainNav {
+    width: 20%;
+  }
+  .search div {
+    padding: 17px 49px 25px 27px;
+  }
+  button.find {
+    position: relative;
+    top: 35px;
+    left: 0;
+  }
+  .tours-gallery h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .deal ul {
+    display: none;
+  }
+  .italy .cities ul {
+    padding: 0px 15px 0px 35px;
+  }
+  .france .cities ul {
+    padding-left: 55px;
+  }
+  .italy, .france {
+    margin-top: 0;
+  }
+  .italy-button {
+    width: 165px;
+    height: 47px;
+    top: 24px;
+  }
+  .italy-button p {
+    padding: 0;
+  }
+  .france-button {
+    width: 165px;
+    height: 47px;
+    left: 135px;
+    top: 24px;
+  }
+  .france-button img {
+    position: absolute;
+    left: 14px;
+    top: 17px;
+  }
+  .france-button p {
+    padding-right: 10px;
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .travel-gallery h3 {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .travel-gallery h4 {
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .travel-gallery li {
+    padding: 36px 2px;
+  }
+  .travel-content p {
+    line-height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  input[type=email] {
+    background: #141414;
+    padding: 10px 4px 13px;
+  }
+  .fa-envelope-o {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+  }
+  input[type=submit] {
+    width: 177px;
+  }
+  .social-button {
+    width: 113px;
+    height: 27px;
+  }
+  .bottom-foot li, .copyright {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .followers {
+    width: 30px;
+    height: 27px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  header {
+    height: 100%;
+  }
+  .top-nav {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logo {
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .left-nav {
+    padding: 0;
+  }
+  .hero {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  h1 {
+    font-size: 32px;
+    font-size: 3.2rem;
+  }
+  .main-head {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .main-head p {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  .bottom-nav a {
+    padding: 8px;
+  }
+  .main-head button p {
+    padding: 0 15px 0 30px;
+    position: relative;
+    font-size: 12px;
+    font-size: 1.2rem;
+  }
+  .bottom-nav ul {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .search div {
+    padding: 15px 52px 25px 0;
+  }
+  .search div:first-child {
+    margin: 0 auto;
+  }
+  .search p {
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .tours-gallery ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  .tours-gallery ul li {
+    margin: 20px auto;
+    width: 100%;
+    padding: 35px 14px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .tours-gallery ul li:last-child {
+    margin-bottom: -10px;
+  }
+  .tours-gallery .left {
+    display: block;
+  }
+  button.right {
+    width: 115px;
+    height: 45px;
+    position: relative;
+    right: -20px;
+    top: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  .offers-gallery ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offers-gallery ul li {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .deal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .travel-gallery, .travel-content {
+    width: 100%;
+  }
+  .france-button {
+    left: 214px;
+    top: 0px;
+  }
+  .footer-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    color: #c2c2c2;
+  }
+  .footer-nav ul {
+    margin: 0;
+  }
+  .footer-nav li {
+    padding: 5px;
+    font-size: 10px;
+    font-size: 1rem;
+  }
+  .footer-nav h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding-left: 6px;
+  }
+  .footer-info div {
+    margin: auto;
+  }
+  .footer-info div {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .subscribe {
+    padding-left: 50px;
+  }
+}

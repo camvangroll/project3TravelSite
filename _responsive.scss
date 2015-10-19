@@ -1,0 +1,451 @@
+
+@media (max-width: 940px) {
+	body {
+
+	// background: red;
+}
+
+	.mainNav {
+		display: none;
+		position: fixed;
+		width: 18%;
+		top: 15%;
+		right: 0;
+		// background:rgba(0,0,0,0.2);
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+
+		
+	}
+
+	.logo {
+		padding-left: 60px;
+	}
+
+	.mainNav li {
+		padding: 5px;
+		display: block;
+}
+
+	.right-nav li a {
+	display: inline-block;
+	padding: 10px;
+	list-style: none;
+}
+
+	.fa-bars {
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.main-head {
+		margin: 0 auto;
+	}
+
+	.search div {
+		padding: 15px 25px 25px 0;
+	}
+
+	button.find {
+		top: 0;
+		left: 320px;
+	}
+
+
+	.tours-gallery ul li {
+		padding: 0 10px;
+	}
+
+	.tours-gallery {
+
+		.left {
+			display: none;
+		}
+
+	}
+
+	button.right {
+	width: 115px;
+    height: 45px;
+    position: relative;
+    right: 0;
+    top: -17px;
+}
+
+
+.offers-gallery ul {
+
+	li {
+		 padding: 36px 0 36px 10px;
+		}
+
+	h3 {
+		@include fontSize(20);
+	}
+}
+
+.deal span {
+	@include fontSize(14);
+	padding-right: 4px;
+
+}
+
+.deal p {
+	@include fontSize(10);
+	line-height: 15px;
+}
+
+.deal ul li {
+	padding-left: 0;
+	text-transform: uppercase;
+	@include fontSize(10);
+}
+
+    .italy .cities ul {
+        padding: 0px 40px 0px 35px;
+}
+
+    .france .cities ul {
+    padding-left: 70px;
+}
+
+	.footer-nav li {
+			padding: 3px;
+			@include fontSize(8);
+		}
+
+	.footer-nav h4 {
+			text-transform: uppercase;
+			@include fontSize(10);
+			letter-spacing: 1px;
+		}
+
+		.footer-nav ul {
+		  padding: 0px 36px 0 0;
+	}
+
+
+		input[type=submit] {
+		background:$teal;
+		width: 220px;
+	}
+
+	.france-button {
+		left: 180px;
+	}
+
+
+
+
+	.logo {
+		margin: auto;
+	}
+
+	.footer-info {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+
+			.logo {
+				padding: 0;
+			}
+
+	}
+
+	input[type=submit] {
+    width: 240px;
+}
+
+
+	}
+
+	/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+				.mainNav {
+					width: 20%;
+				}
+				
+		.search div {
+    		padding: 17px 49px 25px 27px;
+
+}
+
+button.find {
+	position: relative;
+	top: 35px;
+	left:0;
+}
+		.tours-gallery h3 {
+			 @include fontSize(16);
+		}
+	.deal ul {
+		display: none;
+	}
+
+	.italy .cities ul {
+    padding: 0px 15px 0px 35px;
+}
+
+.france .cities ul {
+    padding-left: 55px;
+}
+
+.italy, .france {
+	margin-top: 0;
+}
+
+.italy-button {
+    width: 165px;
+    height: 47px;
+    top: 24px;
+
+    p {
+    	padding: 0;
+    }
+}
+
+.france-button {
+	width: 165px;
+    height: 47px;
+    left: 135px;
+    top: 24px;
+   
+    
+    	img {
+    		position: absolute;
+    		left: 14px;
+    		top: 17px;
+    	}
+
+    	p {
+    		padding-right: 10px;
+    		@include fontSize(10);
+    	}
+}
+
+.travel-gallery h3 {
+	@include fontSize(12);
+}
+
+.travel-gallery h4 {
+	@include fontSize(12);
+}
+
+.travel-gallery li {
+	 padding: 36px 2px;
+
+}
+
+.travel-content p {
+    line-height: 20px;
+    @include fontSize(12);
+}
+
+input[type=email] {
+	background: $navblack;
+    padding: 10px 4px 13px;
+    }
+
+
+.fa-envelope-o {
+	position: absolute;
+	right: 15px;
+    bottom: 15px;
+
+}
+
+    input[type=submit] {
+	width: 177px;
+	
+}
+
+.social-button {
+	width: 113px;
+	height: 27px;
+}
+
+.bottom-foot li, .copyright {
+	@include fontSize(10);
+}
+
+.followers {
+    width: 30px;
+    height: 27px;
+}
+
+}
+			 
+	/* Landscape phones and down */
+	@media (max-width: 480px) {
+		body {
+			@include fontSize(16);
+				}
+
+		header {
+			height: 100%;
+	}
+
+	.top-nav {
+		align-items: center;
+	}
+
+		.logo {
+    	margin: 0 auto;
+    	padding-top: 20px;
+	}
+
+		.left-nav {
+    	padding: 0;
+	}
+
+		.hero {
+		justify-content: space-between;
+	}
+
+	h1 {
+			@include fontSize(32);
+	}
+
+
+	.main-head {
+	width: 90%;
+	margin: 0 auto;
+	padding: 40px;
+	align-items: flex-start;
+
+			p {
+				@include fontSize(14);
+			}
+	}
+
+		.bottom-nav a {
+			padding: 8px;
+	}
+
+	.main-head button p {
+	padding: 0 15px 0 30px;
+	position: relative;
+	@include fontSize(12);
+
+	}
+
+	.bottom-nav ul {
+		margin: 0 auto;
+		padding: 0;
+
+	}
+
+	.search div {
+		 padding: 15px 52px 25px 0;
+	}
+
+	.search div:first-child {
+		margin: 0 auto;
+	}
+	
+	.search p {
+		 @include fontSize(10);
+	}
+
+	.tours-gallery ul {
+		flex-direction: column;
+		margin: 0;
+
+
+		li {
+			margin: 20px auto;
+			width: 100%;
+			padding: 35px 14px; 
+			justify-content: space-between;
+		}	
+
+		li:last-child {
+			margin-bottom: -10px;
+		}
+
+}
+
+	.tours-gallery {
+
+		.left {
+			display: block;
+		}
+
+	}
+
+	button.right {
+		width: 115px;
+	    height: 45px;
+	    position: relative;
+	    right: -20px;
+	    top: 12px;
+	    font-family: $headerfont;
+
+}
+
+	.offers-gallery  ul {
+		flex-direction: column;
+
+			li {
+				width: 100%;
+				margin-bottom: 40px;
+			}
+	}
+
+
+.deal {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.travel-gallery, .travel-content {
+	width: 100%;
+}
+
+.france-button {
+	left: 214px;
+    top: 0px;
+}
+
+
+.footer-nav {
+	display: flex;
+	flex-wrap: wrap;
+	color: $lightgrey;
+
+		ul {
+			margin: 0;
+		}
+
+		li {
+			padding: 5px;
+			@include fontSize(10);
+		}
+
+		h4 {
+			text-transform: uppercase;
+			@include fontSize(12);
+			letter-spacing: 1px;
+    		padding-left: 6px;
+		}
+	}
+
+
+	.footer-info div {
+		margin: auto;
+	}
+
+	.footer-info div {
+		align-items: flex-start;
+	}
+
+	.subscribe {
+		padding-left: 50px;
+	}
+
+}
+

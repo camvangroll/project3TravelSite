@@ -1,0 +1,222 @@
+
+ button {
+	background: $teal;
+	color: $white;
+	font-family: $headerfont;
+	border-radius: 10px 10px 10px 10px;
+	text-transform: uppercase;
+	@include fontSize(12);
+	font-weight: 700;
+	border: none;
+
+	p {
+		text-align: center;
+	}
+
+	 a {
+		text-decoration: none;
+	}
+}
+
+.main-head button p {
+	padding: 3px 20px 3px 35px;
+	position: relative;
+
+		img {
+			    position: absolute;
+			    left: 2px;
+			    top: -2px;
+			    padding-left: 5px;		
+			}
+}
+
+button.find {
+	position: relative;
+	top: 47px;
+}
+
+button.find p {
+	padding: 0 10px 0 20px;
+	position: relative;
+		
+		img {
+			position: absolute;
+    		left: 3px;
+		}
+
+		a {
+			border: none;	
+		}
+	}
+
+button.right {
+	width: 115px;
+    height: 50px;
+    position: relative;
+    right: -20px;
+    top: 12px;
+    font-family: $headerfont;
+
+    	img {
+    		position: relative;
+    		top: 3px;
+    		left: 0;
+    	}
+
+}
+
+.offers-gallery button {
+	width: 120px;
+    height: 40px;
+
+    	p {
+			color: $white;
+    		font-family: $headerfont;
+    		margin: 0;
+    		padding: 0;
+    	}
+}
+
+.italy-button {
+	width: 185px;
+	height: 50px;
+    padding: 0 0 0 29px;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    left: 20px;
+
+    	img {
+    		position: absolute;
+    		left: 9px;
+    		top: 19px;
+    	}
+
+    	p {
+    		padding-left: 10px;
+    	}
+
+}
+
+.france-button {
+	width: 185px;
+	height: 50px;
+    padding: 0 0 0 29px;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+    left: 320px;
+
+
+    	img {
+    		position: absolute;
+    		left: 20px;
+    		top: 19px;
+    	}
+
+    	p {
+    		padding-right: 27px;
+    	}
+}
+
+.social-button {
+	width: 130px;
+    height: 31px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    position: relative;
+    padding-top: 8px;
+    color: $lightgrey;
+    font-family: $socialfont;
+    letter-spacing: 1px;
+
+    	a {
+    		text-decoration: none;
+    		color: $white;
+    		font-family: $bodyfont;
+    		letter-spacing: 1px;
+    		font-weight: thin;
+    	}
+
+    	i {
+    		position: absolute;
+    		left: 10px;
+    		top: 10px;
+    	}
+
+}
+
+.followers {
+	width: 30px;
+	height: 30px;
+	background:$white;
+	color: $fontblack;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 7px;
+	border-radius: 5px 5px 5px 5px;
+	font-family: $bodyfont;
+	color: $fontblack;
+	font-weight: 700;
+
+}
+
+.fb {
+	background: $facebookblue;
+}
+
+.twitter {
+	background:$twitterblue;
+}
+
+.google {
+	background:$googleorange;
+}
+
+.pinterest {
+	background: $pinterestred;
+	color: $white;
+}
+
+input[type=email] {
+	background: $navblack;
+    padding: 10px 35px 13px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid grey;
+    text-align: left;
+}
+
+.email-submit {
+	position: relative;
+}
+
+.fa-envelope-o {
+	position: absolute;
+	right: 19px;
+    bottom: 15px;
+
+}
+
+::-webkit-input-placeholder {
+	@include fontSize(10);
+	padding-top: 3px;
+	text-align: left;
+	
+}
+
+input[type=submit] {
+	background:$teal;
+	width: 242px;
+	padding: 10px 0 13px;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 10px;
+	color: $white;
+	@include fontSize(14);
+	border: 1px solid grey;
+}
+
+
+
+
+

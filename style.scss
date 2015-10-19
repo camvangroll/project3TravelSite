@@ -1,0 +1,680 @@
+@import "setup"; 
+
+$headerfont: 'Roboto Condensed', sans-serif;
+$bodyfont: 'Lato', sans-serif;
+$socialfont: 'Dosis', sans-serif;
+
+$teal: #4ae5d1;
+$white: #ffffff;
+$fontblack: #222222;
+$lightgrey: #c2c2c2;
+$footblack: #1b1b1b;
+$navblack: #141414;
+$facebookblue: rgb(59,89,152);
+$twitterblue: rgb(85,172,238);
+$googleorange: rgb(211,72,54);
+$pinterestred: rgb(201,34,40);
+
+@import "typography";
+@import "buttons";
+
+// <i class="fa fa-chevron-down"> down arrow
+
+// -left and right arrows for Special Offers section = <i class="fa fa-chevron-left"></i> and <i class="fa fa-chevron-right"></i>
+
+a {
+	color: $white;
+}
+
+p {
+	color: $lightgrey;
+}
+
+.fa-bars {
+	display: none;
+}
+
+.tag {
+	padding: 20px 0;
+}
+
+.sea-tours li, .special-offers li, .travel-countries li {
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+// THIS IS THE HEADER
+
+header {
+	background-image: url(assets/hero.jpg);
+	height: 150vh;
+	width: 100%;
+	color: $white;
+}
+
+main, section, .main-footer {
+	margin-top: 100px;
+	padding-top: 5%;
+}
+
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.main-head {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	padding: 5% 0;
+
+}
+
+.hero {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100%;
+	justify-content: space-between;
+}
+
+.top-nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+
+		a {
+			text-decoration: none;
+		}
+}
+
+.left-nav {
+	padding: 25px 0 0 25px;
+}
+
+.logo img {
+	position: relative;
+	top: 7px;
+}
+
+.right-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	list-style: none;
+
+}
+
+.right-nav li a {
+	display: inline-block;
+	padding: 10px;
+	list-style: none;
+}
+
+.bottom-nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding-top: 10%;
+
+}
+
+.bottom-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px 0;
+	margin: auto;
+}
+
+.bottom-nav li {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.bottom-nav li:hover a {
+	background: rgba(64,64,64,0.3);
+	border-bottom: none;
+}
+
+.search.hover {
+	background: rgba(64,64,64,0.3);
+	opacity: 1;
+}
+
+.bottom-nav a {
+	text-decoration: none;
+	padding: 15px; 
+	border-top: 1px solid $lightgrey;
+	border-right: 1px solid $lightgrey;
+	border-bottom: 1px solid $lightgrey;
+}
+
+.hotels {
+	border-left: 1px solid $lightgrey;
+	border-bottom: 1px solid $lightgrey;
+}
+
+.search {
+	display: flex;
+	flex-wrap: wrap;
+	opacity: 0;
+
+	img {
+	 position: relative;
+    left: -10px;
+    top: 2px;
+}
+}
+
+.search div {
+  padding: 15px 52px 25px 0;
+}
+
+.search p {
+	padding: 10px 0;
+}
+
+// TOURS SECTION
+
+.title {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.bolivia {
+	background: url("assets/tour-1.jpg") no-repeat center;
+	background-position: 100%;
+	background-size: cover;
+}
+
+li.bolivia:hover {
+	background-color: rgba(64,64,64,0.3);
+	background-image: url("assets/tour-1.jpg") no-repeat center;
+}
+
+.patagonia {
+	background: url("assets/tour-2.jpg") no-repeat center;
+}
+
+.torres {
+	background: url("assets/tour-3.jpg") no-repeat center;
+}
+
+.santorini {
+	background: url("assets/tour-4.jpg") no-repeat center;
+}
+
+.turkey {
+	background: url("assets/tour-5.jpg") no-repeat center;
+}
+
+.china {
+	background: url("assets/tour-6.jpg") no-repeat center;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.tours-gallery ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+
+
+		li {
+			width: 31%;
+    		list-style: none;
+    		padding: 35px 14px;
+    		display: flex;
+    		flex-direction: column;
+    		align-items: center;
+		}
+
+}
+
+.tours-gallery li:hover {
+
+		button {
+			background: none;
+			border: 2px solid $teal;
+		}
+
+		h3 {
+			color: $teal;
+		}
+
+}
+
+.tour-deal {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex: 1 0 auto;
+}
+
+div.left {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+
+		div {
+			position: relative;
+		}
+
+		p {
+			text-transform: uppercase;
+			@include fontSize(10);
+		}
+}
+
+.left div:first-child p {
+	position: relative;
+	left: -23px;
+}
+
+.left div:first-child img {
+	position: absolute;
+	left: -3px;
+}
+
+.left div:last-child img {
+	position: absolute;
+	left: -25px;
+}
+
+span.bold {
+	font-weight: bold;
+	padding: 2px;
+	color: $white;
+
+}
+
+// END OF TOURS
+
+// VACATION PACKAGES
+
+section.vacation-packages {
+	background: url("assets/banner.jpg") no-repeat;
+}
+
+.vacation-packages div {
+	padding-bottom: 115px;
+	text-align: center;
+}
+
+section.special-offers {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+}
+
+.greece {
+	background: url("assets/greece.jpg") no-repeat;
+}
+
+.china2 {
+	background: url("assets/china.jpg") no-repeat;
+}
+
+.canada {
+	background: url("assets/canada.jpg") no-repeat;
+}
+
+.offers-gallery ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0;
+
+	li {
+			width: 32%;
+			list-style: none;
+			padding: 36px 0 36px 26px;
+			text-align: left;
+			color: $white;
+		}
+
+	h3 {
+		@include fontSize(20);
+		letter-spacing: 5px;
+		font-family: $headerfont;
+		font-weight: 700;
+	}
+}
+
+
+.deal span {
+	@include fontSize(24);
+	padding: 3px 10px 3px 3px;
+
+}
+
+.deal p {
+	@include fontSize(14);
+	line-height: 20px;
+	padding-right: 49px;
+}
+
+.deal ul li {
+	padding-left: 0;
+	text-transform: uppercase;
+	@include fontSize(12);
+}
+
+.italy01 {
+	background: url("assets/italy-small.jpg") no-repeat;
+}
+
+.italy02 {
+	background: url("assets/italy-small2.jpg") no-repeat;
+}
+
+.italy03 {
+	background: url("assets/italy-small3.jpg") no-repeat;
+}
+
+.italy04 {
+	background: url("assets/italy-small4.jpg") no-repeat;
+}
+
+.france01 {
+	background: url("assets/francesmall1.jpg") no-repeat;
+}
+
+.france02 {
+	background: url("assets/francesmall2.jpg") no-repeat;
+}
+
+.france03 {
+	background: url("assets/francesmall3.jpg") no-repeat;
+}
+
+.france04 {
+	background: url("assets/francesmall4.jpg") no-repeat;
+}
+
+section.travel-countries {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.italy, .france {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-top: 5%;
+
+}
+
+.travel-gallery, .travel-content {
+	width: 50%;
+	height: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.italy .travel-content {
+	background-image: url(assets/italymap.png);
+	background-repeat: no-repeat;
+}
+
+.france .travel-content {
+	background-image: url(assets/francemap.jpg);
+	background-repeat: no-repeat;
+}
+
+.italy  {
+
+	h3, p, h4 {
+		text-align: left;
+	}
+
+		h4 {
+				padding-left: 20px;
+			}
+
+		.travel-content {
+			justify-content: flex-start;
+		}
+
+		ul {
+				padding: 0px 82px 0px 35px;
+				color: $lightgrey;
+			}
+
+			.title {
+				padding-left: 20px;
+			}
+}
+
+.france {
+	flex-direction: row-reverse;
+		h3, p, h4 {
+			text-align: right;
+		}
+
+			h4 {
+				padding-right: 20px;
+			}
+
+			.travel-content {
+				justify-content: flex-end;
+			}
+
+			ul {
+				padding-left: 125px;
+			}
+
+			.title {
+				padding-right: 20px;
+			}
+
+
+}
+
+.travel-content {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+
+		p 	{
+			line-height: 30px;
+			}
+
+		.cities {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			
+		}
+
+		li {
+			color: $lightgrey;
+			padding: 2px;
+			@include fontSize(12);
+				}
+
+		h3 {
+			@include fontSize(20);
+			text-transform: uppercase;
+		}
+
+		h4 {
+			color: $fontblack;
+			@include fontSize(16);
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			margin-bottom: 0;
+			}
+
+}
+
+.travel-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+
+	ul {
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-between;
+			list-style: none;
+			padding: 0;
+
+		}
+
+			li {
+				    width: 48%;
+    				padding: 36px 15px;
+    				
+			}
+
+			h3, h4 {
+				text-align: left;
+				position: relative;
+				bottom: -55px;
+    			left: 2px;
+    			color: white;
+    			letter-spacing: 0;
+			}
+
+			h3 {
+				margin-bottom: -10px;
+			}
+
+}
+
+.italy .travel-gallery h4 {
+				left: -17px;
+			}
+
+.travel-gallery span {
+	color: $teal;
+}
+
+// THIS IS THE BIG FOOTER
+
+.main-footer {
+	background: $footblack;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-top: 50px;
+	justify-content: space-between;
+
+	.logo {
+		align-items: center;
+		padding-top: 40px;
+	}
+
+}
+
+.footer-nav {
+	display: flex;
+	flex-wrap: wrap;
+	color: $lightgrey;
+
+		ul {
+			list-style: none;
+			padding: 0 45px 0 0;
+		}
+
+		li {
+			padding: 5px;
+			@include fontSize(10);
+		}
+
+		h4 {
+			text-transform: uppercase;
+			@include fontSize(12);
+			letter-spacing: 1px;
+    		padding-left: 6px;
+		}
+}
+
+li.social {
+	padding: 2px;
+}
+
+.pc {
+	margin-bottom: 0;
+	margin-top: 15px
+
+}
+
+
+.pop-countries {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+// end of the main foot
+
+.last-nav {
+	background: $navblack;
+	padding: 10px;
+
+}
+
+.bottom-foot {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+
+		ul {
+			padding: 0;
+			@include fontSize(14);
+		}
+
+		a {
+			text-decoration: none;
+			padding: 10px;
+		}
+
+		p {
+			@include fontSize(14);
+			color: $lightgrey;
+		}
+
+}
+
+.bottom-foot li {
+	display: inline;
+}
+
+.copyright {
+	color: $lightgrey;
+}
+
+@import "responsive";
+
+
+
+
+
+

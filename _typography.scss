@@ -1,0 +1,133 @@
+@mixin fontSize($number){
+
+	font-size: $number * 1px;
+	font-size: ($number / 10) * 1rem;
+}
+
+@mixin fontSize($number){
+
+	font-size: $number * 1px;
+	font-size: ($number / 10) * 1rem;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	@include fontSize(16);
+}
+
+p {
+	font-family: $bodyfont;
+}
+
+h1 { 
+	@include fontSize(42);
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	font-family: $headerfont;
+}
+
+.search p {
+	@include fontSize(12);
+	color: $white;
+}
+
+h2 {
+	@include fontSize(26);
+	text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: $headerfont;
+}
+
+h3 {
+	color: $white;
+	@include fontSize(20);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: $headerfont;
+}
+
+.tours-gallery {
+	padding: 20px 0;
+}
+
+.tours-gallery h3 {
+	font-family: $headerfont;
+	font-weight: 700;
+
+}
+
+.tours-gallery h4 {
+		font-family: $headerfont;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+	}
+
+.tour-deal {
+	font-family: $bodyfont;
+	@include fontSize(12);
+	color: $white;
+}
+
+.travel-countries h3 {
+	@include fontSize(16);
+	color: $fontblack;
+}
+
+.travel-countries h4 {
+	@include fontSize(14);
+}
+
+h4 {
+	color: $white;
+}
+
+.sea-tours {
+	text-align: center;
+}
+
+.vacation-packages {
+	color: $white;
+
+		h4 {
+			font-family: "Roboto Condensed", sans-serif;
+    		font-weight: 400;
+   			text-transform: uppercase;
+		}
+
+		p {
+			@include fontSize(12);
+			color: white;
+			text-transform: uppercase;
+			font-weight: thin;
+		}
+}
+
+nav a {
+	@include fontSize(12);
+}
+
+.footer-nav {
+
+
+	h4 {
+		font-family: $headerfont;
+	}
+
+	li {
+		font-family: $bodyfont;
+		color: grey;
+	}
+}
+
+.bottom-nav {
+	letter-spacing: 1px;
+	font-family: $headerfont;
+}
+
+.bottom-nav a {
+	@include fontSize(10);
+}
